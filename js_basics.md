@@ -5,6 +5,6 @@ Strings Basics, Indices and Length, Undefined & Null, String Methods, String Tem
 
 Number Boolean already seen, String - series of characters
 
-''''
+```
 let firstName = "Unknownanony";
-''''
+```
