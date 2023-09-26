@@ -90,10 +90,53 @@ if(rating ==== 3){
 }
 ```
 ```
-if( numm%4 === 0){
-    console.log("Here is a number divisible by 4);
+num = userInput("Enter a number: ")
+
+if (numm % 4 === 0) {
+    console.log("Here is a number divisible by 4");
+} else if (num % 2 === 0) {
+    console.log("Here is a number divisible by 2");
 }
-else if(num%2 === 0){
-    console.log("Here is a number divisible by 2);
+else{
+    console.log("WHY DID YOU GIVE THIS NUMBER");
+}
+```
+
+->Truthy and Falsey values
+All js values have an inherent truthyness and falsyness, Falsy values: false, 0, "", null, undefined, NaN, Everything else is truthy
+
+->Logical Operators
+AND/OR/NOT
+```
+true && true
+true || false
+0 || undefined // false
+!null
+```
+-> Switch statement
+```
+const day = 2;
+switch(day) {
+    case 1:
+        console.log("Monday");
+        break;
+    case 2:
+        console.log("Tuesday");
+        break;
+    case 3:
+        console.log("Wednesday");
+        break;
+    case 4:
+        console.log("Thursday");
+        break;
+    case 5:
+        console.log("Frday");
+        break;
+    case 6:
+    case 7:
+        console.log("Weekend!");  
+        break;
+    default:
+        console.log("We don't know");
 }
 ```
