@@ -56,3 +56,44 @@ Math.random() //(0,1)
 Math.floor(Math.random()*10) // 1-10
 ```
 Math is an object, a collection of methods and properties which we always have access to 
+
+# Javascript Decision Making
+*Topics covered: Comparison Operators, Running js from a file, Conditional If, Else-If and Else, Truthy and False-y values, Logical AND/OR/NOT
+
+-> Decision Making in Javascript: Branching paths
+Comparison Operators: >,<,==,!=,===,!==,<=,>=
+All of these return a boolean, even strings can be compared, but be careful, there is ascii code comparison
+
+```
+== //check equality of value, invariant of types, like not just numeric 1 and '1'
+0 == false
+null == undefined;
+=== //
+
+!= // == analogous
+!== // === analogous
+```
+-> console.log("hello")
+console is also object, .warn, .error
+```
+alert("hi there")
+let userInput = prompt("Please enter a number")
+parseInt(userInput)
+userInput + 1
+parseInt(101akshfoi) //101
+```
+-> js files //check Running_js.... folder
+-> Conditional Statements
+```
+if(rating ==== 3){
+    console.log("You are a student")
+}
+```
+```
+if( numm%4 === 0){
+    console.log("Here is a number divisible by 4);
+}
+else if(num%2 === 0){
+    console.log("Here is a number divisible by 2);
+}
+```
